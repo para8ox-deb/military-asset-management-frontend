@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'https://military-asset-management-backend.vercel.app/';
+const API_URL = 'https://military-asset-management-backend.vercel.app/api';
 
 // Configure axios defaults
 axios.defaults.baseURL = API_URL;
